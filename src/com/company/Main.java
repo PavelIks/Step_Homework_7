@@ -1,10 +1,4 @@
 /*Домашнее задание*/
-// ----------------------------------> git log --pretty=format:"%h - %ar : %s"
-// ----------------------------------> git rebase --interactive 5f38185^
-// ----------------------------------> reword 5f38185 order status
-
-// ----------------------------------> git log --oneline
-// ----------------------------------> git show --stat 5f38185
 
 /*Задание 1 Создайте шаблонный класс Array, который представляет собой массив, позволяющий хранить объекты заданного типа. Необходимо реализовать:
 1) заполнение массива с клавиатуры;
@@ -133,7 +127,7 @@ class Main
         }
         System.out.println(avg2);*/
 
-        ArrayList<Array_Class> list = new ArrayList<Array_Class>();
+        /*ArrayList<Array_Class> list = new ArrayList<Array_Class>();
         list.add(new Array_Class(75));
         list.add(new Array_Class(200));
         list.add(new Array_Class(90));
@@ -148,6 +142,6 @@ class Main
         for (Array_Class array_class : list)
         {
             System.out.print(array_class.ArrayClass_Display() + " ");
-        }
+        }*/
     }
 }
